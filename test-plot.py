@@ -12,3 +12,5 @@ with sankey_path.open(encoding="utf8") as file:
 	svg_content = file.read()
 
 st.markdown(f'<div style="justify-content: center;">{svg_content}</div>', unsafe_allow_html=True)
+
+
